@@ -19,7 +19,7 @@ button {
 	font-family: "Raleway", sans-serif;
 }
 
-img {
+#shirt {
 	margin-right: 100px;
 }
 
@@ -45,8 +45,13 @@ img {
 
 .rating-container {
 	align-self: flex-end;
+	display: flex;
 	margin: 12px 0px 80px;
 	font-family: "Roboto", sans-serif;
+}
+
+.rating-stars {
+	margin-right: 12px;
 }
 
 .qty-txt {
@@ -73,6 +78,7 @@ img {
 }
 
 .pincode-avail {
+	width: 100%;
 	border: 2px solid grey;
 	padding: 12px 16px;
 	display: flex;
@@ -126,4 +132,14 @@ input::-webkit-inner-spin-button {
 
 #add-to-cart:disabled {
 	cursor: default;
+}
+
+@media (max-width: 768px) {
+	.content-container {
+		flex-direction: column;
+	}
+
+	#shirt {
+		margin: 120px 0px 40px;
+	}
 }
