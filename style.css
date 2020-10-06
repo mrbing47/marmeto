@@ -123,3 +123,7 @@ input::-webkit-inner-spin-button {
 	padding: 1em 2em;
 	outline: none;
 }
+
+#add-to-cart:disabled {
+	cursor: default;
+}
