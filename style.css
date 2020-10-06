@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	place-content: center;
+}
+
+img {
+	margin-right: 50px;
+}
+
+.content-container {
+	display: flex;
+	align-items: center;
+	border: 2px solid grey;
+	padding: 60px;
+}
+
+/* detail-content */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
